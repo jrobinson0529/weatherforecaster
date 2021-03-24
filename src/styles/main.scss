@@ -7,3 +7,44 @@ body {
   text-align: center;
   margin-top: 100px;
 }
+.forecast-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+.card-img-top {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.city-weather-card {
+  margin: 20px;
+  height: 15em;
+  padding: 10px;
+  color: black;
+}
+.error-container {
+  font-size: 28px;
+  font-weight: 700;
+  color: red;
+}
+form {
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: grey;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-container {
+  margin-top: 200px;
+}
+#city {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
