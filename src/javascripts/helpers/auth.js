@@ -4,7 +4,7 @@ import domBuilder from '../components/domBuilder';
 import weatherSearchFormRead from '../components/forms/weatherSearchFormRead';
 import loginButton from '../components/loginButton';
 import logoutButton from '../components/logoutButton';
-import firebaseConfig from './apiKeys';
+import { firebaseConfig } from './apiKeys';
 import startApp from './startApp';
 
 const checkLoginStatus = () => {
