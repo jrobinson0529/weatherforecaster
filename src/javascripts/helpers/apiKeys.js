@@ -1,4 +1,4 @@
-const weatherApiConfig = {
+const firebaseConfig = {
   apiKey: process.env.APP_API_KEY,
   authDomain: process.env.APP_AUTH_DOMAIN,
   databaseURL: process.env.APP_DATABASE_URL,
@@ -6,6 +6,8 @@ const weatherApiConfig = {
   storageBucket: process.env.APP_STORAGE_BUCKET,
   appId: process.env.APP_APP_ID,
   measurementId: process.env.APP_MEASUREMENT_ID,
+  weatherApiKey: process.env.WEATHER_APP_API_KEY,
+  weatherDatabaseURL: process.env.WEATHER_APP_DATABASE_URL,
 };
 
-export default weatherApiConfig;
+export default firebaseConfig;
