@@ -6,8 +6,10 @@ const firebaseConfig = {
   storageBucket: process.env.APP_STORAGE_BUCKET,
   appId: process.env.APP_APP_ID,
   measurementId: process.env.APP_MEASUREMENT_ID,
+};
+const openWeatherConfig = {
   weatherApiKey: process.env.WEATHER_APP_API_KEY,
   weatherDatabaseURL: process.env.WEATHER_APP_DATABASE_URL,
 };
 
-export default firebaseConfig;
+export { openWeatherConfig, firebaseConfig };
