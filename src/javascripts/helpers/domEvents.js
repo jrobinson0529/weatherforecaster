@@ -4,7 +4,6 @@ import {
   createUserWeatherData,
   deleteUserWeatherData,
   getCurrentWeatherData,
-  getUserWeatherData
 } from './data/weatherData';
 
 const domEvents = (uid) => {
@@ -29,7 +28,7 @@ const domEvents = (uid) => {
             image,
             cityId,
           };
-          createUserWeatherData(weatherObject).then(() => getUserWeatherData(uid).then((array) => weatherCard(array)));
+          createUserWeatherData(weatherObject, uid).then((array) => weatherCard(array));
         }
       });
     }
